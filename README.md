@@ -1,6 +1,6 @@
-# Facturas-Gemini: Procesador Automático de Facturas
+# Digital Invoice Processor: Procesador Automático de Facturas
 
-`facturas-gemini` es un proyecto personal que utiliza la API de Google Gemini para procesar imágenes de facturas, extraer datos clave en formato JSON (como empresa, fecha, monto total, etc.) y exportarlos a un archivo Excel organizado. Este proyecto es ideal para automatizar la extracción de información de facturas de manera rápida y eficiente.
+`Digital Invoice Processor` es un proyecto personal que utiliza la API de Google Gemini para procesar imágenes de facturas, extraer datos clave en formato JSON (como empresa, fecha, monto total, etc.) y exportarlos a un archivo Excel organizado. Este proyecto es ideal para automatizar la extracción de información de facturas de manera rápida y eficiente.
 
 ## Características
 
