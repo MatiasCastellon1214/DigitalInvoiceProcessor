@@ -44,8 +44,8 @@ El proyecto sigue este flujo:
 
    - Clona el proyecto:
      ```bash
-     git clone <URL_DEL_REPOSITORIO>
-     cd facturas-gemini
+     git clone https://github.com/MatiasCastellon1214/DigitalInvoiceProcessor.git
+     cd DigitalInvoiceProcessor
      ```
    - O descarga el ZIP desde el repositorio y descomprímelo.
 2. **Instalar dependencias**:
