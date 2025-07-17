@@ -86,7 +86,7 @@ class ProcesadorFacturasGemini:
         Analiza esta factura y extrae los siguientes datos en formato JSON válido.
         Si algún campo no está presente, usa "No encontrado" como valor.
         
-        Formato requerido:
+        Formato requerido:a
         {
             "empresa": "nombre completo de la empresa emisora",
             "fecha": "fecha de emisión (formato YYYY-MM-DD si es posible)",

@@ -10,7 +10,8 @@ def setup_logger(name: str) -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 
-    file_handler = logging.FileHandler(LOG_FILE)
+    # 🔧 Agregamos codificación UTF-8 explícita al handler
+    file_handler = logging.FileHandler(LOG_FILE, encoding='utf-8')
     file_handler.setLevel(logging.INFO)
 
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
