@@ -12,3 +12,5 @@ class ProcessingLogModel(BaseModel):
     error_message: Optional[str] = None
     processing_run_id: Optional[str] = None
     created_at: datetime
+    created_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None

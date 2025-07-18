@@ -13,11 +13,12 @@ try:
 
     # Definir colecciones
     invoices = db["invoices"]
-    statistics_process = db["statistics_process"]
-    processing_run = db["processing_run"]
+    #statistics_process = db["statistics_process"]
+    #processing_run = db["processing_run"]
     image_invoices = db["image_invoices"]  # Agregar la nueva colección
     processing_run = db["runs"]
     processing_logs = db["processing_logs"]
+    statistics = db["statistics"]
 
 except Exception as e:
     print(f"❌ Error de conexión: {e}")
