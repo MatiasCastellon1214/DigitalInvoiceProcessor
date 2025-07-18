@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, status
 from backend_API.db.config import db
 from bson import ObjectId
 from backend_API.models.logs.ProcessingLogModel import ProcessingLogModel
